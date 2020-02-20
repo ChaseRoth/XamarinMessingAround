@@ -1,0 +1,13 @@
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\bin\Debug\netstandard2.0\MVVMCommandTestingApp.deps.json
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\bin\Debug\netstandard2.0\MVVMCommandTestingApp.dll
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\bin\Debug\netstandard2.0\ref\MVVMCommandTestingApp.dll
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\bin\Debug\netstandard2.0\MVVMCommandTestingApp.pdb
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\MVVMCommandTestingApp.csprojAssemblyReference.cache
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\MVVMCommandTestingApp.AssemblyInfoInputs.cache
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\MVVMCommandTestingApp.AssemblyInfo.cs
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\MVVMCommandTestingApp.dll
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\ref\MVVMCommandTestingApp.dll
+C:\Dev\MVVMCommandTestingApp\MVVMCommandTestingApp\MVVMCommandTestingApp\obj\Debug\netstandard2.0\MVVMCommandTestingApp.pdb

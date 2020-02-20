@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:converters="clr-namespace:MVVMCommandTestingApp.Pages.Converter"
+             mc:Ignorable="d"
+             x:Class="MVVMCommandTestingApp.MainPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:AmplifierConverter x:Key="AmpConverter"/>
+            <converters:RandomizerConverter x:Key="RndConverter"/>
+            <converters:ColorRandomizer x:Key="RndColorConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout BackgroundColor="Black">
+            <StackLayout Padding="50,100,50,0">
+                <Label Text="{Binding SliderValue}" TextColor="White"/>
+                <Slider Minimum="0" Maximum="1" 
+                DragCompletedCommand="{Binding SliderValueChangedFinishedCMD, Mode=TwoWay}" 
+                DragStartedCommand="{Binding SliderValueChangingCMD}" Value="{Binding SliderValue}"
+                Margin="0,0,0,70"/>
+            </StackLayout>
+            <StackLayout>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+                <ProgressBar Progress="{Binding SliderValue}" RotationY="{Binding Rotation, Converter={StaticResource RndConverter}}" ProgressColor="{Binding Rotation,Converter={StaticResource RndColorConverter}}"/>
+            </StackLayout>
+
+            <!--<Button Text="Im Button" 
+                RotationX="{Binding SliderValue, Converter={StaticResource AmpConverter}}"
+                RotationY="{Binding SliderValue, Converter={StaticResource AmpConverter}}" 
+                Margin="0,100,0,0"/>-->
+        </StackLayout>
+    </ScrollView>
+    
+
+</ContentPage>
